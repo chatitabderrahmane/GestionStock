@@ -1,0 +1,38 @@
+.sidenav-container {
+    height: 100vh;
+  }
+  
+  .custom-sidenav {
+    width: 300px; /* Agrandit la sidebar */
+    border-right: 2px solid #ddd; /* Ajoute une bordure */
+  }
+  
+  .logo {
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  mat-nav-list a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    border-bottom: 1px solid #f0f0f0; /* Bordure pour chaque item */
+    text-decoration: none;
+    color: black;
+  }
+  
+  mat-toolbar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar .title {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .spacer {
+    flex: 1;
+  }
+  

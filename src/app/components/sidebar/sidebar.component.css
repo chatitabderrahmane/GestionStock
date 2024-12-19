@@ -1,0 +1,12 @@
+ 
+  mat-toolbar {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  mat-nav-list a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
